@@ -1,56 +1,56 @@
 @layer global {
   /* dm-sans-300 - latin */
   @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 300;
-    src: url("/assets/fonts/dm-sans-v16-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url("assets/fonts/dm-sans-v16-latin-300.woff2") format("woff2");
   }
 
   /* dm-sans-500 - latin */
   @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 500;
-    src: url("/assets/fonts/dm-sans-v16-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url("assets/fonts/dm-sans-v16-latin-500.woff2") format("woff2");
   }
 
   /* dm-sans-600 - latin */
   @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 600;
-    src: url("/assets/fonts/dm-sans-v16-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url("assets/fonts/dm-sans-v16-latin-600.woff2") format("woff2");
   }
 
   /* dm-sans-600italic - latin */
   @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
     font-family: "DM Sans";
     font-style: italic;
     font-weight: 600;
-    src: url("/assets/fonts/dm-sans-v16-latin-600italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url("assets/fonts/dm-sans-v16-latin-600italic.woff2") format("woff2");
   }
 
   /* dm-sans-700 - latin */
   @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("/assets/fonts/dm-sans-v16-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url("assets/fonts/dm-sans-v16-latin-700.woff2") format("woff2");
   }
 
   /* bricolage-grotesque-700 - latin */
   @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
     font-family: "Bricolage Grotesque";
     font-style: normal;
     font-weight: 700;
-    src: url("/assets/fonts/bricolage-grotesque-v8-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url("assets/fonts/bricolage-grotesque-v8-latin-700.woff2") format("woff2");
   }
 
   :root {
@@ -231,7 +231,7 @@
 
     .header__dropdown {
       max-width: 10ch;
-      background-image: url("/assets/images/icon-units.svg");
+      background-image: url("assets/images/icon-units.svg");
       background-repeat: no-repeat;
       background-position: 16px center;
       padding: 12px 40px;
@@ -268,7 +268,7 @@
     }
 
     .hero__textbox {
-      background-image: url("/assets/images/icon-search.svg");
+      background-image: url("assets/images/icon-search.svg");
       background-repeat: no-repeat;
       background-position: 24px center;
       background-color: var(--color-panel-bg-dark);
@@ -306,7 +306,7 @@
       gap: 16px;
       margin-block-end: 20px;
       padding: 40px 24px;
-      background-image: url("/assets/images/bg-today-small.svg");
+      background-image: url("assets/images/bg-today-small.svg");
       background-repeat: no-repeat;
       background-color: var(--c-blue-700);
       background-size: cover;
@@ -318,7 +318,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-image: url("/assets/images/bg-today-large.svg");
+        background-image: url("assets/images/bg-today-large.svg");
         padding-block: 83px;
       }
     }
